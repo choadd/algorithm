@@ -1,2 +1,4 @@
+# gitignore object file
 *.o
 */*.o
+
