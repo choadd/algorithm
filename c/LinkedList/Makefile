@@ -6,7 +6,7 @@ ListMain.o: ListMain.c
 ArrayList.o: ArrayList.c
 	gcc -c ArrayList.c ArrayList.h
 
-clear:
+clean:
 	rm -rf *.o
 	rm -rf *.gch
 	rm ArrayList
