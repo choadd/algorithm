@@ -44,6 +44,5 @@ int main(void){
             printf("next : %d\n", data);            
         }
     }
-    
 
 }
