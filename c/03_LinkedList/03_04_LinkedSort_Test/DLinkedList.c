@@ -14,7 +14,7 @@ void FInsert(List *plist, LData data) {
 	newNode->data = data;
 
 	newNode->next = plist->head->next;
-	plist->head->next = newNode;
+	plist->head = newNode;
 	(plist->numOfData)++;
 }
 
