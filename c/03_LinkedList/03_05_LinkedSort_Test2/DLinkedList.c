@@ -46,7 +46,7 @@ int LFirst(List * plist, LData *pdata){
     plist->before = plist->head;
     plist->cur = plist->head->next;
     *pdata = plist->cur->data;
-
+x
     return TRUE;
 }
 
