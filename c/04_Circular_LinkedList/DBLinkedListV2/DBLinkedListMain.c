@@ -22,27 +22,27 @@ int main(void)
 		printf("\n");
 	}
 
-	if(LFirst(&list, &data))
-	{
-		if(data%2 == 0)
-			LRemove(&list);
+	// if(LFirst(&list, &data))
+	// {
+	// 	if(data%2 == 0)
+	// 		LRemove(&list);
 
-		while(LNext(&list, &data)) 
-		{		
-			if(data%2 == 0)
-				LRemove(&list);
-		}
-	}
+	// 	while(LNext(&list, &data)) 
+	// 	{		
+	// 		if(data%2 == 0)
+	// 			LRemove(&list);
+	// 	}
+	// }
 
-	if(LFirst(&list, &data))
-	{
-		printf("%d ", data);
+	// if(LFirst(&list, &data))
+	// {
+	// 	printf("%d ", data);
 
-		while(LNext(&list, &data)) 
-			printf("%d ", data);
+	// 	while(LNext(&list, &data)) 
+	// 		printf("%d ", data);
 		
-		printf("\n\n");
-	}
+	// 	printf("\n\n");
+	// }
 
 	return 0;
 }
