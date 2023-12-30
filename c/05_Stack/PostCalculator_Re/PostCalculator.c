@@ -17,11 +17,11 @@ int EvalRPNExp(char exp[])
 
 		if(isdigit(tok))
 		{
-			SPush(&stack, tok - '0');     // 숫자로 변환하여 PUSH!
+			SPush(&stack, tok - '0');
 		}
 		else
 		{
-			op2 = SPop(&stack);     // 먼저 꺼낸 값이 두 번째 피연산자!
+			op2 = SPop(&stack);
 			op1 = SPop(&stack);
 
 			switch(tok)
